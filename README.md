@@ -35,7 +35,7 @@ A compact, USB-C powered baby sound machine that plays soothing sounds on contin
 1. **Print the enclosure** - Use standard PLA, 0.2mm layer height, 15-20% infill
 2. **Wire the components** according to the wiring diagram below
 3. **Flash the Arduino code** to the RP2040 Zero
-4. **Load MP3 files** onto the MicroSD card (in `/mp3` folder, numbered 001.mp3, 002.mp3, etc.)
+4. **Load MP3 files** onto the MicroSD card (in `/mp3` folder, numbered 0001.mp3, 0002.mp3, etc.)
 5. **Assemble** - Place electronics in enclosure and snap on the lid
 
 ## Wiring Diagram
@@ -74,7 +74,7 @@ SPK_2         -->  Speaker -
 
 1. Format MicroSD card as FAT32
 2. Create a folder named `mp3` on the root
-3. Name your files: `001.mp3`, `002.mp3`, `003.mp3`, etc.
+3. Name your files: `0001.mp3`, `0002.mp3`, `0003.mp3`, etc.
 4. Supported formats: MP3 files, 8-320 kbps
 
 ## Usage
@@ -95,7 +95,7 @@ myDFPlayer.volume(15);  // 0-30, default is 15
 
 **Not playing:**
 - Check SD card is properly inserted
-- Verify MP3 files are in `/mp3` folder and named correctly (001.mp3, 002.mp3, etc.)
+- Verify MP3 files are in `/mp3` folder and named correctly (0001.mp3, 0002.mp3, etc.)
 - Try reformatting SD card as FAT32
 
 **No sound:**
