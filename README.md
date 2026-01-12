@@ -28,7 +28,7 @@ A compact, USB-C powered baby sound machine that plays soothing sounds on contin
 - Top lid with speaker grille
 - Power button
 
-**3D Print Files:** Available on [MakerWorld](your-link-here) (In review, not published yet)
+**3D Print Files:** Available on [MakerWorld](https://makerworld.com/en/models/2232995-continuous-baby-sound-machine-box#profileId-2429764)
 
 ## Assembly
 
